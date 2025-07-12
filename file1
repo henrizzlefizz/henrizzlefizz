@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HenrizzleFizz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&family=Montserrat&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fefefe;
+      color: #222;
+      scroll-behavior: smooth;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero h1 {
+      font-family: 'Rubik Spray Paint', cursive;
+      font-size: 5rem;
+      color: #FFD700;
+      text-shadow: 2px 2px 4px #000;
+      z-index: 10;
+    }
+
+    .flavor-section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .flavor-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .flavor-image {
+      max-width: 600px;
+      width: 90%;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .flavor-image:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>HENRIZZLEFIZZ</h1>
+  </section>
+
+  <!-- FLAVOR 1: ORANGE -->
+  <section class="flavor-section" style="background-color: #fff7e6;">
+    <h2 style="color: #ff8c00;">Orange</h2>
+    <img src="orange-image.jpg" alt="Orange Flavor" class="flavor-image">
+  </section>
+
+  <!-- FLAVOR 2: BUNS-AHH BLAST -->
+  <section class="flavor-section" style="background-color: #ffeef1;">
+    <h2 style="color: #ff3c3c;">Buns-Ahh Blast</h2>
+    <img src="bunsahhblast-image.jpg" alt="Buns-Ahh Blast Flavor" class="flavor-image">
+  </section>
+
+</body>
+</html>
